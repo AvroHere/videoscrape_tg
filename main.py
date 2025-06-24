@@ -22,9 +22,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot configuration
-TOKEN = "7986429682:AAEK7yAMTy18_ey0B-J6ZIgWGVtWiDGYWOA"
-ADMIN_UID = 8139996030  # Only respond to this user ID
-TARGET_GROUP_ID = -1002602630495  # Group to send videos to
+TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ADMIN_UID = xxxxxxxxxx  # Only respond to this user ID
+TARGET_GROUP_ID = xxxxxxxxxxx  # Group to send videos to
 MAX_VIDEO_SIZE = 49 * 1024 * 1024  # 49MB (Telegram file size limit for bots)
 TEMP_DIR = Path(tempfile.gettempdir()) / "telegram_video_bot"
 TEMP_DIR.mkdir(exist_ok=True, parents=True)
