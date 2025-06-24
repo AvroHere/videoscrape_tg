@@ -1,0 +1,3 @@
+python-telegram-bot==20.3
+yt-dlp==2023.7.6
+pytube==15.0.0
